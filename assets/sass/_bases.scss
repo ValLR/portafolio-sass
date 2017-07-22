@@ -44,3 +44,33 @@ body{
 	}
 
 }
+.content{
+	padding:$content-padding;
+	background-color:$content-background;
+	.features-container{
+		width:$features-width;
+		padding:$features-padding;
+		background-color:$features-background;
+		text-align: $features-text-align;
+		border: $features-container-border;
+		.parrafoUno{
+			padding:$pUno-padding;
+			color:$pUno-color;
+		}
+		.pDos{
+			color:$pUno-color;
+		}
+		.fIcon{
+			font-size:$fIcon-size;
+		}
+		.fTitles{
+			font-weight:$bold-font;
+			font-size:$fFont-size;
+		}
+	}
+	.now{
+		@include now();
+		width:$features-width;
+		padding:$features-padding;
+	}
+}

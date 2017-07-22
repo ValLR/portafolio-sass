@@ -4,3 +4,10 @@
     max-width: 100%;
 
 }
+@mixin now(){
+	background:url("../img/img_city.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-attachment: fixed;
+	height: 800px;
+}
