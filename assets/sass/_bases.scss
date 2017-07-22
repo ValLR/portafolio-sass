@@ -1,10 +1,42 @@
+*{
+	@include reinicia();
+}
+body{
+	font-family: $font;
+}
 .slider{
 	background:$background1;
 	background-size: $background_size;
 	background-position: $background_position;
-	visibility: $hidden;
+	display: $hidden;
 	background-repeat:$background-repeat;
+	height:$background-height;
+	font-weight:$bolder-font;
 }
+
 .slider2{
-	background:$background2;
+	font-weight:$bolder-font;
+	background-image:$background2;
+	display:$shown;
+	background-size:$background_size;
+	background-position:$background_position;
+	background-repeat:$background-repeat;
+	height:$background-height;
+}
+.carrusel{
+	padding:$padding-carrusel;
+	text-align:$text-center;
+	width:$carrusel-width;
+	color:$carrusel-color;
+	font-family:$slider-font;
+	h1{
+		font-weight:$bolder-font;
+	}
+	.arrow{
+		color:$carrusel-color;
+		font-weight:$bolder-font;
+		height: $arrow-height;
+		width: $arrow-width;
+	}
+
 }
