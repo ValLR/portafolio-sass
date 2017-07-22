@@ -8,11 +8,11 @@ body{
 	background:$background1;
 	background-size: $background_size;
 	background-position: $background_position;
-	display: $hidden;
 	background-repeat:$background-repeat;
 	height:$background-height;
 	font-weight:$bolder-font;
 }
+
 
 .slider2{
 	font-weight:$bolder-font;
@@ -23,6 +23,7 @@ body{
 	background-repeat:$background-repeat;
 	height:$background-height;
 }
+
 .carrusel{
 	padding:$padding-carrusel;
 	text-align:$text-center;
@@ -34,9 +35,12 @@ body{
 	}
 	.arrow{
 		color:$carrusel-color;
-		font-weight:$bolder-font;
-		height: $arrow-height;
-		width: $arrow-width;
+		font-weight:$normal-font;
+		font-size: $arrow-size;
+		border-radius:$arrow-radius;
+	}
+	.arrow-container{
+		margin-top:$arrow-margin-top;
 	}
 
 }

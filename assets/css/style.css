@@ -6784,9 +6784,8 @@ body {
   background: url(../img/img_slider_1.jpg);
   background-size: 100%;
   background-position: 50% 70%;
-  display: none;
   background-repeat: no-repeat;
-  height: 450px;
+  height: 500px;
   font-weight: 900; }
 
 .slider2 {
@@ -6796,7 +6795,7 @@ body {
   background-size: 100%;
   background-position: 50% 70%;
   background-repeat: no-repeat;
-  height: 450px; }
+  height: 500px; }
 
 .carrusel {
   padding: 100px 30px;
@@ -6808,8 +6807,10 @@ body {
     font-weight: 900; }
   .carrusel .arrow {
     color: #E9E9EA;
-    font-weight: 900;
-    height: 50px;
-    width: 50px; }
+    font-weight: normal;
+    font-size: 60px;
+    border-radius: 30px; }
+  .carrusel .arrow-container {
+    margin-top: 50px; }
 
 /*# sourceMappingURL=style.css.map */
