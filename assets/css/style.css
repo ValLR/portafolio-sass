@@ -6814,10 +6814,10 @@ body {
     margin-top: 50px; }
 
 .content {
-  padding: 60px 0;
+  padding: 0;
   background-color: #D9D9D9; }
   .content .features-container {
-    width: 80%;
+    width: 90%;
     padding: 20px 40px;
     background-color: #F5F5F5;
     text-align: center;
@@ -6831,14 +6831,63 @@ body {
       font-size: 90px; }
     .content .features-container .fTitles {
       font-weight: 700;
-      font-size: 20px; }
+      font-size: 20px;
+      color: #475260; }
   .content .now {
     background: url("../img/img_city.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;
     height: 800px;
-    width: 80%;
+    width: 90%;
     padding: 20px 40px; }
+    .content .now iframe {
+      border: 1px solid whitesmoke; }
+  .content .products {
+    padding: 30px 10px;
+    width: 90%;
+    background-color: #F5F5F5;
+    text-align: center;
+    border: 1px solid whitesmoke; }
+    .content .products h4 {
+      font-weight: 700;
+      color: #475260; }
+    .content .products p {
+      color: grey; }
+    .content .products .sub-container {
+      background-color: white;
+      padding: 30px 10px;
+      margin: 5px 10px;
+      border-radius: 15px;
+      border: 1px solid whitesmoke;
+      width: 22%; }
+      .content .products .sub-container img {
+        border-radius: 15px;
+        width: 90%; }
+      .content .products .sub-container .crimson-title {
+        font-size: 13px;
+        font-weight: 700; }
+        .content .products .sub-container .crimson-title a {
+          color: crimson; }
+      .content .products .sub-container .psub-container {
+        padding: 0 10px; }
+      .content .products .sub-container .pSub-title {
+        font-weight: 900;
+        font-size: 15px;
+        margin: 10px 0; }
+        .content .products .sub-container .pSub-title a {
+          color: #475260; }
+      .content .products .sub-container .pSub-par {
+        font-size: 10px; }
+    .content .products .sub.row {
+      margin: 0; }
+    .content .products .prod.row {
+      margin: 0; }
+    .content .products .row.picons {
+      margin: 40px 0 0 0; }
+    .content .products .prod {
+      margin-left: 0; }
+    .content .products .sub .row .col {
+      padding: 0; }
 
 /*# sourceMappingURL=style.css.map */

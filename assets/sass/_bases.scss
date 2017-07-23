@@ -45,7 +45,7 @@ body{
 
 }
 .content{
-	padding:$content-padding;
+	padding:$padding-original;
 	background-color:$content-background;
 	.features-container{
 		width:$features-width;
@@ -66,11 +66,78 @@ body{
 		.fTitles{
 			font-weight:$bold-font;
 			font-size:$fFont-size;
+			color:$sTitle-color;
 		}
 	}
 	.now{
 		@include now();
 		width:$features-width;
 		padding:$features-padding;
+		iframe{
+		border:$video-border;
+		}
+	}
+	.products{
+		padding:$products-padding;
+		width:$features-width;
+		background-color:$features-background;
+		text-align: $features-text-align;
+		border: $features-container-border;
+		h4{
+			font-weight:$bold-font;
+			color:$sTitle-color;
+		}
+		p{
+			color:$pUno-color;
+		}
+
+		.sub-container{
+			background-color: $pdivs-color;
+			padding:$products-padding;
+			margin:$pdivs-margin;
+			border-radius:$pdivs-radius;
+			border: $features-container-border;
+			width:$pdivs-width;
+			img{
+				border-radius:$pdivs-radius;
+				width:$pimg-width;
+			}
+			.crimson-title{
+				font-size:$epigrafe-size;
+				font-weight:$bold-font;
+				a{
+					color:$epigrafe;					
+				}
+			}
+			.psub-container{
+				padding: 0 10px;
+			}
+			.pSub-title{
+				font-weight:$bolder-font;
+				font-size:$pSub-title-size;
+				margin:$pSub-title-margin;
+				a{
+					color:$sTitle-color;
+				}
+			}
+			.pSub-par{
+				font-size:$pdiv-par-size;
+			}
+		}
+		.sub.row{
+			margin: $margin-original;
+		}
+		.prod.row{
+			margin:$margin-original;
+		}
+		.row.picons{
+			margin:$picons-margin;
+		}
+		.prod{
+			margin-left:$margin-original;
+		}
+		.sub .row .col{
+			padding:$padding-original;
+		}
 	}
 }
