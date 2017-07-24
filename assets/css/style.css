@@ -6904,5 +6904,37 @@ body {
     color: #A6A6A6;
     padding: 20px 40px;
     width: 90%; }
+  .content .footer {
+    background-color: #303235;
+    color: #A6A6A6;
+    padding: 20px 40px;
+    width: 90%; }
+    .content .footer .fa {
+      color: white; }
+    .content .footer .white-title {
+      color: white;
+      font-weight: 900; }
+    .content .footer .sMedia {
+      background-repeat: no-repeat;
+      background-size: 100%;
+      word-wrap: break-word;
+      color: #A6A6A6; }
+    .content .footer .base-links {
+      color: white;
+      font-weight: 700; }
+    .content .footer img {
+      border-radius: 15px; }
+  .content .touch {
+    background: url("../img/img_city.jpg");
+    color: white;
+    height: 500px;
+    width: 90%; }
+    .content .touch .row-touch {
+      margin-bottom: 0;
+      margin-right: 0;
+      padding: 0 30px;
+      margin-left: 70px; }
+      .content .touch .row-touch .get-container {
+        margin-top: 70px; }
 
 /*# sourceMappingURL=style.css.map */

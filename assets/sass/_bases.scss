@@ -152,4 +152,39 @@ body{
 		@include portfolio();
 		width:$features-width;
 	}
+
+	.footer{
+		@include foot();
+		width:$features-width;
+		.fa{
+			color:$pdivs-color;
+		}
+		.white-title{
+			color: $pdivs-color;
+			font-weight:$bolder-font;
+		}
+		.sMedia{
+			@include footMedia();
+		}
+		.base-links{
+			color:$pdivs-color;
+			font-weight:$bold-font;
+		}
+
+		img{
+			border-radius:$pdivs-radius;
+		}
+	}
+	.touch{
+		@include touch();
+		width:$features-width;
+		.row-touch{
+			margin-bottom:$margin-original;
+			margin-right: $margin-original;
+			@include getCont();
+			.get-container{
+				margin-top:70px;
+			}
+		}
+	}
 }

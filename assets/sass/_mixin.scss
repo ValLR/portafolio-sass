@@ -21,3 +21,23 @@
 	color:#A6A6A6;
 	padding:80px 70px;
 }
+@mixin foot(){
+	background-color:#303235;
+	color:#A6A6A6;
+	padding:20px 40px;
+}
+@mixin touch(){
+	background: url("../img/img_city.jpg");
+	color:$pdivs-color;
+	height:500px;
+}
+@mixin getCont(){
+	padding:0 30px;
+	margin-left:70px;
+}
+@mixin footMedia(){
+    background-repeat: no-repeat;
+    background-size:100%;
+	word-wrap: break-word;
+	color:#A6A6A6;
+}
