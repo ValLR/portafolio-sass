@@ -140,4 +140,16 @@ body{
 			padding:$padding-original;
 		}
 	}
+	.portTeam{
+		@include portfolio();
+		width:$features-width;
+	}
+	.plan{
+		@include plan();
+		width:$features-width;
+	}
+	.clients{
+		@include portfolio();
+		width:$features-width;
+	}
 }

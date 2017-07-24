@@ -6889,5 +6889,20 @@ body {
       margin-left: 0; }
     .content .products .sub .row .col {
       padding: 0; }
+  .content .portTeam {
+    background-color: white;
+    color: #A6A6A6;
+    padding: 20px 40px;
+    width: 90%; }
+  .content .plan {
+    background-color: #E6E6E6;
+    color: #A6A6A6;
+    padding: 80px 70px;
+    width: 90%; }
+  .content .clients {
+    background-color: white;
+    color: #A6A6A6;
+    padding: 20px 40px;
+    width: 90%; }
 
 /*# sourceMappingURL=style.css.map */
