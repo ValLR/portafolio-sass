@@ -29,7 +29,8 @@
 @mixin touch(){
 	background: url("../img/img_city.jpg");
 	color:$pdivs-color;
-	height:500px;
+	height:600px;
+	border-radius:$arrow-radius;
 }
 @mixin getCont(){
 	padding:0 30px;
@@ -40,4 +41,7 @@
     background-size:100%;
 	word-wrap: break-word;
 	color:#A6A6A6;
+}
+@mixin blog(){
+	background-color:$features-background;
 }
